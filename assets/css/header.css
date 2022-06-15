@@ -1,0 +1,8 @@
+.app_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #7a53b4;
+}
