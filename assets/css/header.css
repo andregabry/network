@@ -2,7 +2,30 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-height: 4em;
     justify-content: space-between;
     padding: 10px;
     background-color: #7a53b4;
+}
+
+.app_header_brand{
+    flex-basis: 19em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.app_header_brand .app_header_brand_logo{
+    max-width: 190px;
+}
+
+.app_header_brand .app_header_icon{
+    font-size: var(--font-large);
+    color: var(--color-white);
+}
+
+.app_header_auth{
+    flex-basis: calc(100% - 19em);
+    display: flex;
 }

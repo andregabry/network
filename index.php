@@ -17,8 +17,11 @@
     <header class="app_header">
         <div class="app_header_brand">
             <img class="app_header_brand_logo" src="assets/img/brand.png">
-            <h1 class="app_header_brand_title">Network</h1>
             <span class="app_header_icon material-symbols-outlined">menu</span>
+        </div>
+        <div class="app_header_auth">
+            <span class="app_header_notify material-symbols-outlined">Notifications</span>
+            <span class="app_header_logout material-symbols-outlined">Logout</span>
         </div>
     </header>
     <main class="app_main">
