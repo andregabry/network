@@ -5,11 +5,11 @@
     max-height: 4em;
     justify-content: space-between;
     padding: 10px;
-    background-color: #7a53b4;
+    background-color: var(--color-white);
 }
 
 .app_header_brand{
-    flex-basis: 19em;
+    flex-basis: 14em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,15 +17,15 @@
 }
 
 .app_header_brand .app_header_brand_logo{
-    max-width: 190px;
+    max-height: 4em;
 }
 
 .app_header_brand .app_header_icon{
     font-size: var(--font-large);
-    color: var(--color-white);
+    color: var(--color-purple);
 }
 
 .app_header_auth{
-    flex-basis: calc(100% - 19em);
+    flex-basis: calc(100% - 14em);
     display: flex;
 }
