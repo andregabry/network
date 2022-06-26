@@ -35,11 +35,10 @@
 .card_small .card_header{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    background-color: #39AED9;
 }
 
 .card_header .card_label{
@@ -50,11 +49,17 @@
     color: var(--color-darck-grey);
     font-weight: var(--weight-bold);
     font-size: var(--font-normal);
-    background-color: #17EAD9;
 }
 
 .card_header .card_header_icon{
     display: flex;
     flex-basis: 30%;
-    background-color: #7A53B4;
+    justify-content: end;
+    align-items: baseline;
+    font-size: var(--font-large);
+    color: var(--color-darck-grey);
+}
+
+.card_small .card_main{
+
 }

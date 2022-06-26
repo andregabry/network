@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="card_small">
                     <div class="row card_header">
-                        <p class="card_label">Usuários</p>
+                        <h3 class="card_label">Usuários</h3>
                         <span class="card_header_icon material-symbols-outlined">person</span>
                     </div>
                     <div class="row card_main">
@@ -59,7 +59,7 @@
 
                 <div class="card_small">
                     <div class="row card_header">
-                        <p class="card_label">Usuários</p>
+                        <h3 class="card_label">Usuários</h3>
                         <span class="card_header_icon material-symbols-outlined">person</span>
                     </div>
                     <div class="row card_main">
@@ -73,7 +73,7 @@
 
                 <div class="card_small">
                     <div class="row card_header">
-                        <p class="card_label">Usuários</p>
+                        <h3 class="card_label">Usuários</h3>
                         <span class="card_header_icon material-symbols-outlined">person</span>
                     </div>
                     <div class="row card_main">
