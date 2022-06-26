@@ -1,0 +1,88 @@
+.app_sidebar{
+    display: block;
+    width: 300px;
+    background-color: var(--color-default);
+    height: 100%;
+    padding: 1em;
+    transition: all 300ms linear;
+    overflow-y: auto;
+}
+
+.app_sidebar_active{
+    margin-left: -300px;
+}
+
+.app_sidebar .app_sidebar_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_sidebar_profile .profile_avatar{
+    border-radius: var(--radius-round);
+    max-width: 8em;
+    padding: 1em;
+}
+
+.app_sidebar_profile .profile_name{
+    color: var(--color-white);
+    font-size: 1em;
+    font-weight: var(--weight-light);
+}
+
+.app_sidebar_profile .profile_email{
+    color: var(--color-grey);
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+
+.app_sidebar .app_sidebar_menu{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.app_sidebar::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.app_sidebar::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.app_sidebar::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--color-purple);
+}
+
+.app_sidebar .app_sidebar_menu a{
+    display: block;
+    color: var(--color-light-grey);
+    text-decoration: none;
+    padding: 0.7em;
+    margin: 0.1em;
+    border-radius: var(--radius-medium);
+}
+
+.app_sidebar .app_sidebar_menu a:hover{
+    background-color: var(--color-grey-hover);
+    color: var(--color-white);
+}
+
+.app_sidebar .app_sidebar_menu a:active{
+    background-color: var(--color-grey-hover);
+    color: var(--color-white);
+}
+
+.app_sidebar .app_sidebar_menu .sidebar_menu_icon{
+ vertical-align: middle;
+    margin-right: 1em;
+}

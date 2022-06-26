@@ -15,7 +15,7 @@
     --font-medium: 1.5em;
     --font-large: 2em;
 
-    --color-default: #555555;
+    --color-default: #11192c;
     --color-green: #36BA9B;
     --color-blue: #39AED9;
     --color-yellow: #F5B946;
@@ -23,6 +23,10 @@
     --color-black: #1D2025;
     --color-white: #fff;
     --color-purple: #7A53B4;
+    --color-grey: #95a4b8;
+    --color-grey-hover: #2e3545;
+    --color-light-grey: #c4c6ca;
+    --color-darck-grey: #202b3c;
 
     --weight-light: 300;
     --weight-normal: 400;
@@ -50,6 +54,10 @@
     --index-fold: 2;
     --index-menu: 3;
     --index-modal: 4;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
 }
 
 /*ELEMENTS*/

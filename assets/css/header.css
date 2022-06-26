@@ -6,14 +6,13 @@
     width: 100%;
     justify-content: space-between;
     padding: 2em;
-    background-color: var(--color-white);
     box-shadow: 0 1px 2px rgba(103, 101, 101, 0.29);
     z-index: var(--index-fold);
     position: fixed;
 }
 
 .app_header_brand{
-    flex-basis: 16em;
+    flex-basis: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +37,7 @@
 }
 
 .app_header_auth{
-    flex-basis: calc(100% - 16em);
+    flex-basis: calc(100% - 250px);
     display: flex;
     flex-direction: row;
     justify-content: end;

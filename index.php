@@ -28,31 +28,87 @@
     <main class="app_main">
         <div class="app_sidebar">
             <div class="app_sidebar_profile">
-                <img src="assets/img/profie.JPG">
-                <h2>André Gabry</h2>
-                <p>andre.gabry@adventistas.org</p>
+                <img class="profile_avatar" src="assets/img/profile.JPG">
+                <h2 class="profile_name">André Gabry</h2>
+                <p class="profile_email">andre.gabry@adventistas.org</p>
             </div>
-            <div class="app_sidebar_content">
-
-                <a href="#">Usuários</a>
-                <a href="#">Equipamentos</a>
-                <a href="#">Licenças</a>
-                <a href="#">Sistemas</a>
-                <a href="#">Softwares</a>
-                <a href="#">Impressoras</a>
-
+            <div class="app_sidebar_menu">
+                <a href="#"><span class="sidebar_menu_icon material-symbols-outlined">person</span>Usuários</a>
+                <a href="#"><span class="sidebar_menu_icon material-symbols-outlined">devices</span>Equipamentos</a>
+                <a href="#"><span class="sidebar_menu_icon material-symbols-outlined">lock_open</span>Licenças</a>
+                <a href="#"><span class="sidebar_menu_icon material-symbols-outlined">wysiwyg</span>Sistemas</a>
+                <a href="#"><span class="sidebar_menu_icon material-symbols-outlined">dataset</span>Softwares</a>
+                <a href="#"><span class="sidebar_menu_icon material-symbols-outlined">print</span>Impressoras</a>
             </div>
-            <div class="app_sidebar_footer">
+        </div>
+        <div class="app_content">
+            <div class="row">
+                <div class="card_small">
+                    <div class="row card_header">
+                        <p class="card_label">Usuários</p>
+                        <span class="card_header_icon material-symbols-outlined">person</span>
+                    </div>
+                    <div class="row card_main">
+                        <h1 class="quantity">45</h1>
+                        <p>Ativos</p>
+                    </div>
+                    <div class="row card_footer">
+                        <p>Total de 65</p>
+                    </div>
+                </div>
+
+                <div class="card_small">
+                    <div class="row card_header">
+                        <p class="card_label">Usuários</p>
+                        <span class="card_header_icon material-symbols-outlined">person</span>
+                    </div>
+                    <div class="row card_main">
+                        <h1 class="quantity">45</h1>
+                        <p>Ativos</p>
+                    </div>
+                    <div class="row card_footer">
+                        <p>Total de 65</p>
+                    </div>
+                </div>
+
+                <div class="card_small">
+                    <div class="row card_header">
+                        <p class="card_label">Usuários</p>
+                        <span class="card_header_icon material-symbols-outlined">person</span>
+                    </div>
+                    <div class="row card_main">
+                        <h1 class="quantity">45</h1>
+                        <p>Ativos</p>
+                    </div>
+                    <div class="row card_footer">
+                        <p>Total de 65</p>
+                    </div>
+                </div>
+
+                <div class="card_small">
+                    <div class="row card_header">
+                        <h3 class="card_label">Usuários</h3>
+                        <span class="card_header_icon material-symbols-outlined">person</span>
+                    </div>
+                    <div class="row card_main">
+                        <h1 class="quantity">45</h1>
+                        <p>Ativos</p>
+                    </div>
+                    <div class="row card_footer">
+                        <p>Total de 65</p>
+                    </div>
+                </div>
 
             </div>
         </div>
 
     </main>
     <footer class="app_footer">
-        <p class="app_ass">Desenvilvido por Adré Gabry v1.0</p>
+        <p class="app_ass">Associação Mineira Sul, Desenvolvido por Adré Gabry v1.0</p>
     </footer>
 </div>
-
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
