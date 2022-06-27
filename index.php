@@ -49,53 +49,53 @@
                         <span class="card_header_icon material-symbols-outlined">person</span>
                     </div>
                     <div class="row card_main">
-                        <h1 class="quantity">45</h1>
-                        <p>Ativos</p>
+                        <h1 class="quantity blue">45</h1>
+                        <span class="span blue">Ativos</span>
                     </div>
                     <div class="row card_footer">
-                        <p>Total de 65</p>
+                        <p>Total de usuários: 65</p>
                     </div>
                 </div>
 
                 <div class="card_small">
                     <div class="row card_header">
-                        <h3 class="card_label">Usuários</h3>
-                        <span class="card_header_icon material-symbols-outlined">person</span>
+                        <h3 class="card_label">Equipamentos</h3>
+                        <span class="card_header_icon material-symbols-outlined">devices</span>
                     </div>
                     <div class="row card_main">
-                        <h1 class="quantity">45</h1>
-                        <p>Ativos</p>
+                        <h1 class="quantity red">108</h1>
+                        <span class="span red">Ativos</span>
                     </div>
                     <div class="row card_footer">
-                        <p>Total de 65</p>
+                        <p>Total de equipamentos: 265</p>
                     </div>
                 </div>
 
                 <div class="card_small">
                     <div class="row card_header">
-                        <h3 class="card_label">Usuários</h3>
-                        <span class="card_header_icon material-symbols-outlined">person</span>
+                        <h3 class="card_label">Licenças</h3>
+                        <span class="card_header_icon material-symbols-outlined">lock_open</span>
                     </div>
                     <div class="row card_main">
-                        <h1 class="quantity">45</h1>
-                        <p>Ativos</p>
+                        <h1 class="quantity yelow">16</h1>
+                        <span class="span yelow">Ativos</span>
                     </div>
                     <div class="row card_footer">
-                        <p>Total de 65</p>
+                        <p>Total de licenças: 20</p>
                     </div>
                 </div>
 
                 <div class="card_small">
                     <div class="row card_header">
-                        <h3 class="card_label">Usuários</h3>
-                        <span class="card_header_icon material-symbols-outlined">person</span>
+                        <h3 class="card_label">Impressoras</h3>
+                        <span class="card_header_icon material-symbols-outlined">print</span>
                     </div>
                     <div class="row card_main">
-                        <h1 class="quantity">45</h1>
-                        <p>Ativos</p>
+                        <h1 class="quantity green">7</h1>
+                        <span class="span green">Ativos</span>
                     </div>
                     <div class="row card_footer">
-                        <p>Total de 65</p>
+                        <p>Total de impressoras: 7</p>
                     </div>
                 </div>
 

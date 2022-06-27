@@ -16,10 +16,10 @@
     --font-large: 2em;
 
     --color-default: #11192c;
-    --color-green: #36BA9B;
-    --color-blue: #39AED9;
-    --color-yellow: #F5B946;
-    --color-red: #D94352;
+    --color-green: #24c55f;
+    --color-blue: #3c83f6;
+    --color-yellow: #f59f0d;
+    --color-red: #ef4545;
     --color-black: #1D2025;
     --color-white: #fff;
     --color-purple: #7A53B4;
@@ -34,16 +34,13 @@
     --weight-bold: 700;
     --weight-black: 900;
 
-    --hover-color-green: #61DDBC;
-    --hover-color-blue: #66D4F1;
-    --hover-color-yellow: #FCD277;
-    --hover-color-red: #F76C82;
+    --hover-color-green: #24c55f;
+    --hover-color-blue: #3c83f6;
+    --hover-color-yellow: #f59f0d;
+    --hover-color-red: #ef4545;
     --hover-duration: 0.3s;
 
     --gradient-green: linear-gradient(to right, #42E695 0%, #3BB2B8 50%, #42E695 100%);
-    --gradient-blue: linear-gradient(to right, #17EAD9 0%, #6078EA 50%, #17EAD9 100%);
-    --gradient-red: linear-gradient(to right, #622744 0%, #C53364 50%, #622744 100%);
-    --gradient-yellow: linear-gradient(to right, #FCE38A 0%, #F38181 50%, #FCE38A 100%);
 
     --radius-normal: 5px;
     --radius-medium: 10px;

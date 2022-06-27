@@ -6,6 +6,7 @@
     padding: 1em;
     overflow-y: auto;
     transition: 300ms linear;
+    background-color: #f1f5f9;
 }
 
 .app_content_full{
@@ -61,5 +62,37 @@
 }
 
 .card_small .card_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.card_main .quantity{
+    font-size: 5em;
+    font-weight: var(--weight-black);
+    padding: 0;
+    margin: 0;
+}
+
+.span {
+    font-weight: var(--weight-normal);
+    padding: 0;
+    margin-top: -1em;
+}
+
+.blue{
+    color: var(--color-blue);
+}
+
+.red{
+    color: var(--color-red);
+}
+
+.yelow{
+    color: var(--color-yellow);
+}
+
+.green{
+    color: var(--color-green);
 }
