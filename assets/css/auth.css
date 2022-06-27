@@ -1,0 +1,92 @@
+.sidebar_profile_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.app_header_profile {
+    font-size: var(--font-medium);
+    color: var(--color-darck-grey);
+    cursor: pointer;
+}
+
+.app_profile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--color-white);
+    padding: 1em;
+    margin-top: 2.7em;
+    border-radius: var(--radius-medium);
+    box-shadow: 0 1px 4px var(--color-grey);
+}
+
+
+.profile_name{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_name h3{
+    font-family: Kanit;
+    color: var(--color-darck-grey);
+    margin: 0;
+}
+
+.profile_data p{
+    font-family: Kanit;
+    font-size: var(--font-small);
+    color: var(--color-darck-grey);
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+
+.profile_close{
+    color: var(--color-white);
+    font-size: var(--font-medium);
+    font-weight: var(--weight-strong);
+    cursor: pointer;
+    background-color: var(--color-red);
+    display: block;
+    padding: 0.2em;
+    border-radius: var(--radius-normal);
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.profile_close:hover{
+    background-color: var(--hover-color-red);
+
+}
+
+.profile_main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.profile_main a{
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+.profile_main a:hover{
+    color: var(--hover-color-blue);
+}
+
+.profile_set, .profile_conf{
+    vertical-align: middle;
+    margin-right: 1em;
+
+}
+
+.app_header_notify {
+    font-size: var(--font-medium);
+    color: var(--color-darck-grey);
+    cursor: pointer;
+    margin-left: 1em;
+}

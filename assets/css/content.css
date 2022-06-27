@@ -81,18 +81,18 @@
     margin-top: -1em;
 }
 
-.blue{
-    color: var(--color-blue);
+.card_footer{
+    display: flex;
+    flex-direction: row;
 }
 
-.red{
-    color: var(--color-red);
+.card_footer p{
+    color: var(--color-darck-grey);
+    font-size: var(--font-small);
 }
 
-.yelow{
-    color: var(--color-yellow);
-}
-
-.green{
-    color: var(--color-green);
+@media only screen and (max-width: 67.5em) {
+    .app_content{
+        width: 100%;
+    }
 }

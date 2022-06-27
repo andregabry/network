@@ -1,4 +1,4 @@
-.app_header{
+.app_header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,7 +11,7 @@
     position: fixed;
 }
 
-.app_header_brand{
+.app_header_brand {
     flex-basis: 250px;
     display: flex;
     align-items: center;
@@ -19,39 +19,48 @@
     flex-direction: row;
 }
 
-.app_header_brand .app_header_brand_logo{
+.app_header_brand_logo {
     max-height: 3.2em;
     cursor: pointer;
 }
 
-.app_header_brand h1{
+.app_header_brand h1 {
     font-family: Kanit;
     font-weight: var(--weight-light);
-    color: var(--color-purple);
+    color: var(--color-darck-blue);
 }
 
-.app_header_brand .app_header_icon{
+.app_header_icon {
     font-size: var(--font-medium);
-    color: var(--color-purple);
+    color: var(--color-darck-grey);
     cursor: pointer;
 }
 
-.app_header_auth{
+.app_header_auth {
     flex-basis: calc(100% - 250px);
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
-.app_header_auth .app_header_notify{
+.app_header_logout {
     font-size: var(--font-medium);
-    color: var(--color-purple);
-    cursor: pointer;
-}
-
-.app_header_auth .app_header_logout{
-    font-size: var(--font-medium);
-    color: var(--color-purple);
+    color: var(--color-darck-grey);
     cursor: pointer;
     margin-left: 1em;
+}
+
+@media only screen and (max-width: 30em) {
+
+    .app_header_brand{
+        justify-content: flex-start;
+    }
+
+    .app_header_brand_logo{
+        margin-right: 2em;
+    }
+
+    .app_header_brand h1{
+        display: none;
+    }
 }

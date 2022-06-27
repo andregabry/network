@@ -7,4 +7,16 @@ $ (function (){
         $(app_sidebar).toggleClass("app_sidebar_active");
         $(app_content).toggleClass("app_content_full")
     });
+
+    var icon_profile = $(".app_header_profile");
+    var profile_content = $(".app_profile");
+    var profile_close = $(".profile_close");
+
+    $(icon_profile).click(function (){
+        $(profile_content).animate();
+    });
+
+    $(profile_close).click(function (){
+        $(profile_content).slideUp(200);
+    });
 });

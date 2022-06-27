@@ -1,4 +1,4 @@
-.app .app_main{
+.app .app_main {
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
     top: 4em;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.card_small{
+.card_small {
     display: flex;
     flex-direction: column;
     flex-basis: 23%;
@@ -23,4 +23,22 @@
     padding: 1em;
     background-color: var(--color-white);
     box-shadow: 0 1px 2px var(--color-light-grey);
+    max-height: 30em;
+}
+
+@media only screen and (max-width: 50em) {
+    .card_small {
+        flex-basis: 47%;
+        margin-bottom: 1.5em;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 30em) {
+    .card_small {
+        flex-basis: 98%;
+    }
 }

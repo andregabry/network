@@ -26,7 +26,8 @@
     --color-grey: #95a4b8;
     --color-grey-hover: #2e3545;
     --color-light-grey: #c4c6ca;
-    --color-darck-grey: #202b3c;
+    --color-darck-grey: #737380;
+    --color-darck-blue: #003366;
 
     --weight-light: 300;
     --weight-normal: 400;
@@ -35,9 +36,9 @@
     --weight-black: 900;
 
     --hover-color-green: #24c55f;
-    --hover-color-blue: #3c83f6;
+    --hover-color-blue: #8fbbff;
     --hover-color-yellow: #f59f0d;
-    --hover-color-red: #ef4545;
+    --hover-color-red: #ffb2b2;
     --hover-duration: 0.3s;
 
     --gradient-green: linear-gradient(to right, #42E695 0%, #3BB2B8 50%, #42E695 100%);
@@ -53,7 +54,23 @@
     --index-modal: 4;
 }
 
-.material-symbols-outlined{
+.blue {
+    color: var(--color-blue);
+}
+
+.red {
+    color: var(--color-red);
+}
+
+.yelow {
+    color: var(--color-yellow);
+}
+
+.green {
+    color: var(--color-green);
+}
+
+.material-symbols-outlined {
     vertical-align: middle;
 }
 
