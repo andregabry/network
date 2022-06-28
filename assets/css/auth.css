@@ -11,36 +11,39 @@
     cursor: pointer;
 }
 
+.app_header_profile:hover{
+    color: var(--color-white);
+}
+
+.app_header_notify:hover{
+    color: var(--color-white);
+}
+
 .app_profile {
     display: none;
     flex-direction: column;
     position: absolute;
     background-color: var(--color-white);
     padding: 1em;
-    margin-top: 2.7em;
+    margin-top: 12em;
     border-radius: var(--radius-medium);
     box-shadow: 0 1px 4px var(--color-grey);
 }
 
-
-.profile_name{
-    display: flex;
-    flex-direction: column;
+.profile_header{
+    border-bottom: 1px solid var(--color-light-grey);
 }
 
-.profile_name h3{
-    font-family: Kanit;
+.profile_header h3{
     color: var(--color-darck-grey);
-    margin: 0;
+    font-family: Kanit;
+    font-size: var(--font-medium);
 }
 
-.profile_data p{
-    font-family: Kanit;
-    font-size: var(--font-small);
+.profile_header p{
     color: var(--color-darck-grey);
-    justify-content: center;
-    margin-bottom: 2em;
     margin-top: 0;
+    margin-bottom: 2em;
 }
 
 .profile_close{
@@ -70,23 +73,54 @@
 }
 
 .profile_main a{
+    display: block;
+    width: 100%;
     text-decoration: none;
-    color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: var(--radius-normal);
+    background-color: var(--color-darck-blue);
+    padding: 0.3em;
+    margin: 1em 0 0 0;
 }
 
 .profile_main a:hover{
-    color: var(--hover-color-blue);
+    background-color: var(--hover-color-blue);
 }
 
 .profile_set, .profile_conf{
     vertical-align: middle;
-    margin-right: 1em;
+    margin-right: 0.2em;
+}
 
+.profile_logout{
+    margin-right: 0.2em;
 }
 
 .app_header_notify {
     font-size: var(--font-medium);
     color: var(--color-darck-grey);
     cursor: pointer;
-    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.profile_footer{
+    margin-top: 1em;
+    border-top: 1px solid var(--color-light-grey);
+}
+
+.profile_footer a{
+    color: var(--color-white);
+    font-size: var(--font-normal);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--color-red);
+    display: block;
+    margin-top: 2em;
+    padding: 0.2em;
+    border-radius: var(--radius-normal);
+}
+
+.profile_footer a:hover{
+    background-color: var(--hover-color-red);
 }

@@ -13,10 +13,10 @@ $ (function (){
     var profile_close = $(".profile_close");
 
     $(icon_profile).click(function (){
-        $(profile_content).animate();
+        $(profile_content).fadeToggle(200);
     });
 
     $(profile_close).click(function (){
-        $(profile_content).slideUp(200);
+        $(profile_content).fadeOut(200);
     });
 });
