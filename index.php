@@ -30,18 +30,48 @@
         <div class="app_sidebar">
             <div class="app_sidebar_profile">
                 <div class="sidebar_profile_header">
-                    <span class="app_header_notify material-symbols-outlined">notifications</span>
-                    <span class="app_header_profile material-symbols-outlined">account_circle</span>
+                    <a class="app_header_notify material-symbols-outlined">notifications<span>3</span></a>
+
+
+                    <div class="app_notify">
+                        <div class="notify_header">
+                            <h3>Notificação</h3>
+                        </div>
+
+                        <div class="notify_main">
+                            <?php
+                            for ($i = 1; $i < 8; $i++) {
+                                ?>
+                                <div class="notify_message">
+                                    <img class="notify_avatar" src="assets/img/profile.JPG">
+                                    <div class="message_header">
+                                        <h4>André Gabry</h4>
+                                        <p>Existem chamados em aberto aguardando serem atendidos.</p>
+                                    </div>
+                                    <div class="notify_footer">
+                                        <a href="#"><span class="material-symbols-outlined">circle</span></a>
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                            ?>
+                        </div>
+
+
+                    </div>
+
+
+                    <a class="app_header_profile material-symbols-outlined">account_circle</a>
                 </div>
                 <div class="app_profile">
-                    <span class="profile_close material-symbols-outlined">close</span>
                     <div class="profile_header">
                         <h3>André Gabry</h3>
                         <p>andre.gabry@adventistas.org</p>
                     </div>
                     <div class="profile_main">
                         <a href="#"><span class="profile_set material-symbols-outlined">account_box</span>Perfil</a>
-                        <a href="#"><span class="profile_conf material-symbols-outlined">settings</span>Configurações</a>
+                        <a href="#"><span
+                                    class="profile_conf material-symbols-outlined">settings</span>Configurações</a>
                     </div>
                     <div class="profile_footer">
                         <a href="#"><span class="profile_logout material-symbols-outlined">logout</span>Sair</a>

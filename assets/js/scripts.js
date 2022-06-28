@@ -10,13 +10,16 @@ $ (function (){
 
     var icon_profile = $(".app_header_profile");
     var profile_content = $(".app_profile");
-    var profile_close = $(".profile_close");
 
     $(icon_profile).click(function (){
         $(profile_content).fadeToggle(200);
     });
 
-    $(profile_close).click(function (){
-        $(profile_content).fadeOut(200);
+    var notify = $(".app_header_notify");
+    var app_notify = $(".app_notify");
+
+    $(notify).clik(function (){
+        alert("Teste de click");
+        $(app_notify).fadeToggle(200);
     });
 });

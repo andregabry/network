@@ -10,13 +10,14 @@
 
 /*VARIABLES*/
 :root {
-    --font-small: 0.875em;
+    --font-small: 0.8em;
     --font-normal: 1em;
     --font-medium: 1.5em;
     --font-large: 2em;
 
     --color-default: #11192c;
     --color-green: #24c55f;
+    --color-dark-green: #0f9589;
     --color-blue: #3c83f6;
     --color-yellow: #f59f0d;
     --color-red: #ef4545;
@@ -28,6 +29,7 @@
     --color-light-grey: #c4c6ca;
     --color-darck-grey: #737380;
     --color-darck-blue: #003366;
+    --color-border: #eaebec;
 
     --weight-light: 300;
     --weight-normal: 400;
@@ -35,7 +37,7 @@
     --weight-bold: 700;
     --weight-black: 900;
 
-    --hover-color-green: #24c55f;
+    --hover-color-green: #90dca9;
     --hover-color-blue: #8fbbff;
     --hover-color-yellow: #f59f0d;
     --hover-color-red: #ffb2b2;
